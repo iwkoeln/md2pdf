@@ -1,5 +1,5 @@
 {
-    "name": "armin/md2pdf",
+    "name": "iwm/md2pdf",
     "description": "Converts multiple markdown files to HTML and PDF.",
     "type": "library",
     "version": "0.2.1",
@@ -9,6 +9,17 @@
             "name": "Armin Vieweg",
             "email": "info@v.ieweg.de",
             "homepage": "https://v.ieweg.de"
+        },
+        {
+            "name": "Joel Maximilian Mai",
+            "email": "joel@maispace.de",
+            "homepage": "https://www.maispace.de"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iwkoeln/markdown-structure"
         }
     ],
     "homepage": "https://github.com/a-r-m-i-n/md2pdf",
@@ -31,7 +42,8 @@
         "symfony/yaml": "^5.4 || ^6.2",
         "league/commonmark": "^2.0",
         "mpdf/mpdf": "^8.1",
-        "scrivo/highlight.php": "^9.18"
+        "scrivo/highlight.php": "^9.18",
+        "iwm/markdown-structure": "dev-main"
     },
     "require-dev": {
         "armin/editorconfig-cli": "^1.5",
